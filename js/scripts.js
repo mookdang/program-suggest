@@ -6,7 +6,12 @@ $(document).ready(function() {
     const q4 = $("select#q4").val();
     const q5 = $("select#q5").val();
 
-    $("langauage").text(answer);
+    const answer = "questions";
+    if (q1 === 'a1' && q2 === 'a1') {
+      answer = "Ruby";
+    }
+
+    $("#langauage").text(answer);
     $("#answer").show();
 
     event.preventDefault();

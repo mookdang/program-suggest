@@ -3,11 +3,11 @@ $(document).ready(function() {
     const q1 = $("select#q1").val();
 
       if (q1 === 'a1' && q1 !== 'a2' && q1 !== 'a3') {
-        answer = "Ruby"
+        answer = "Ruby. Ruby is"
       } else if (q1 !== 'a1' && q1 === 'a2' && q1 || 'a3') {
         answer = "Javascript";  
       } else if (q1 !== 'a1' && q1 !== 'a2' && q1 === 'a3') {
-        answer = "C";
+        answer = "C#"
       }
 
       $("#langauage").text(answer);

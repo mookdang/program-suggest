@@ -14,7 +14,7 @@
     <p class="a">Are you interesting to learn a new Langauage for programming? if so, you are in the right place! Many of people who are interest for learning will find this part the hardest since most of us doesn't know what langauage to choose. Answer those few questions below base on your personal to see what is the langauage are meant for you!!!</p>
     <hr>
 
-    <form>
+    <form id="questions">
       <label for="q1">1. You're lost in desert for days, and then he shows up with water!</label><br>
       <select id="q1">
         <option value="none" selected disabled hidden>-Select an option-</option> 
@@ -54,8 +54,15 @@
         <option value="a2">Jeep</option>
         <option value="a3">Rover</option>
       </select><br>
+      <br>
 
+      <button type="submit" class="btn">Submit</button>
     </form>
+    <br>
+
+    <div id="answer">
+      <p> You should learn <span id="langauage"></span> base on your answer! Now go program!</p>
+    </div>
   </div>
 </body>
 </html>

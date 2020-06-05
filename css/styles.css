@@ -14,3 +14,26 @@ p {
   text-indent: 50px;
 }
 
+label {
+  padding-bottom: 3px;
+  padding-top: 15px;
+}
+
+#q1 {
+  padding: 2px;
+}
+
+#q2 {
+  padding: 2px;
+}
+#q3 {
+  padding: 2px;
+}
+
+#q4 {
+  padding: 2px;
+}
+
+#q5 {
+  padding: 2px;
+}
